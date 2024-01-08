@@ -17,38 +17,23 @@ def classify_claim(text):
 
 # Test cases
 claims = [
-    "Climate change is a significant global issue.",
-    "Smoking causes lung cancer.",
-    "Eating carrots improves your vision at night.",
-    "Vaccines can prevent certain diseases.",
-    "Regular exercise can reduce the risk of heart disease.",
-    "Artificial intelligence will surpass human intelligence in the next decade.",
-    "Photosynthesis is a process used by plants to create oxygen.",
-    "Einstein won a Nobel Prize for his theory of relativity.",
-    "Sleeping less than seven hours a night can harm your health.",
-    "The universe is constantly expanding.",
-    "The Great Pyramid of Giza was built by aliens.",
-    "Chocolate is good for your health.",
-    "The world's population will reach 10 billion by 2050.",
-    "Coffee is the world's most widely consumed psychoactive drug.",
-    "Dogs are better pets than cats."
+    "Today the death toll from coronavirus rose above 28,000, and state governors across the country grappled with the difficult question of when, how and to what extent they could begin trying -- trying to reestablish some kind of normalcy.",
+    "What he did not do was provide any evidence that his administration has taken the steps needed for that to actually happen safely in a way that won't trigger new outbreaks and cost more lives.",
+    "And that's because once again today, the President spent a large part of what has become a substitute for his political rallies -- which supposed to be the coronavirus task force briefing -- he spent it boasting of his accomplishments -- accomplishments he's yet to actually accomplish -- and deflecting blame.",
+    "It's also some of the country's top business executives.",
+    "One such step is widespread testing, which the president has both derided and claimed that is currently happening.",
+    "They told the President that today.",
 ]
 non_claims = [
-    "I had pasta for lunch.",
-    "The Eiffel Tower is in Paris.",
-    "Yesterday was the longest day of the year.",
-    "Water boils at 100 degrees Celsius.",
-    "Shakespeare wrote 'War and Peace'.",  # False statement but not a claim.
-    "The Great Wall of China can be seen from space.",  # A common misconception.
-    "The sun revolves around the Earth.",  # Incorrect, but presented as a fact.
-    "The capital of Australia is Sydney.",  # Incorrect, but not a claim.
-    "The Internet was invented in the 1960s.",
-    "Thomas Edison invented the light bulb.",
-    "The Titanic was unsinkable.",  # Historical inaccuracy.
-    "Humans can survive for weeks without water.",  # Factual inaccuracy.
-    "The human brain is the most complex object in the universe.",  # Factual statement.
-    "The Mona Lisa was painted by Leonardo da Vinci.",
-    "There are more stars in the universe than grains of sand on Earth."
+    "It is scientists on the coronavirus task force, epidemiologists.",
+    "Well today, the state governors also learned, once again, something about the President of the United States.",
+    "And when he was asked about it at tonight's briefing, he first tried to claim credit where none is due, and then tried to put the responsibility elsewhere.",
+    "And that's not just us saying so.",
+    "He's eager, understandably, to reopen the country, as he so often says, and said so again today.",  # False statement but not a claim.
+    "Keep in mind(ph) though there is not a widespread testing we will ultimately need to get back to business.",  # A common misconception.
+    "There just isn't.",  # Incorrect, but presented as a fact.
+    "First, though, the boasting.",  # Incorrect, but not a claim.
+    "And good evening, everyone.",
 ]
 
 test_texts = claims + non_claims
